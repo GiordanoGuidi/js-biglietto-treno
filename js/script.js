@@ -21,4 +21,9 @@ console.log('Prezzo biglietto minorenni', ticketPriceMinors.toFixed(2))
 const ticketPriceOver65= ticketPrice - (ticketPrice / 100 * 40);
 console.log('Prezzo biglietto over65', ticketPriceOver65)
 
-// Calcoliamo il prezzo del biglietto per gli over 65//
+// Prendiamo l'elemento nell'html
+document.getElementById=('paragraph')
+paragraph.innerText= ('Il prezzo del bigliotto è:')
+console.log(paragraph)
+
+

@@ -16,6 +16,8 @@ Buon lavoro!
 1. chiediamo il numero di chilometri che l'utente vuole percorrere
 2. chiediamo l'età del passeggero
 3. Calcoliamo il prezzo del biglietto
-4. aggiungiamo la variabile dello sconto per i minorenni
-5. la variabile dello sconto per gli over 65
+4. Calcoliamo il prezzo per i minorenni
+5. Calcoliamo il prezzo per gli over 65
 6. arrotondiamo il prezzo finale fino ai centesimi
+7. prendiamo l'elemento nell'html
+
