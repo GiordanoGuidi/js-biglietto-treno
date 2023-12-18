@@ -35,7 +35,8 @@ if(userAge < 18){
 else if(userAge > 65){
     paragraph.innerText= `${message} ${ticketPriceOver65.toFixed(2)}€`
     console.log(paragraph)
-
 }
+
+
 
 

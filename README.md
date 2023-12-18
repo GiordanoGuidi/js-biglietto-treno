@@ -20,4 +20,5 @@ Buon lavoro!
 5. Calcoliamo il prezzo per gli over 65
 6. arrotondiamo il prezzo finale fino ai centesimi
 7. prendiamo l'elemento nell'html
+8. costruirsco i messaggi
 
