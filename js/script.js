@@ -1,6 +1,5 @@
 console.log('JS OK')
 
-
 //Chiediamo il numero di chilometri che l'utente vuole percorrere//
 const kilometersTravelled= parseInt(prompt('Quanti chilometri deve percorrere?', '20'));
 console.log('Chilometri percorsi', kilometersTravelled)
@@ -21,9 +20,22 @@ console.log('Prezzo biglietto minorenni', ticketPriceMinors.toFixed(2))
 const ticketPriceOver65= ticketPrice - (ticketPrice / 100 * 40);
 console.log('Prezzo biglietto over65', ticketPriceOver65)
 
-// Prendiamo l'elemento nell'html
+// Prendiamo l'elemento nell'html//
 document.getElementById=('paragraph')
-paragraph.innerText= ('Il prezzo del bigliotto è:')
-console.log(paragraph)
+
+// Costruisco il messaggio passeggeri compresi tra i 18 e i 65 anni di età//
+const message=('Il prezzo del biglietto è : ')
+paragraph.innerText= `${message} ${ticketPrice.toFixed(2)}€`
+// Messaggio per passeggeri minorenni//
+if(userAge < 18){
+    paragraph.innerText= `${message} ${ticketPriceMinors.toFixed(2)}€`
+    console.log(paragraph)
+}
+// Messaggio per passeggeri over 65//
+else if(userAge > 65){
+    paragraph.innerText= `${message} ${ticketPriceOver65.toFixed(2)}€`
+    console.log(paragraph)
+
+}
 
 
