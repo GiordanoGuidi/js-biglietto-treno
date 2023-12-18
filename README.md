@@ -8,3 +8,14 @@ va applicato uno sconto del 20% per i minorenni
 va applicato uno sconto del 40% per gli over 65.
 L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 Buon lavoro!
+
+---
+
+# Scomposizione del problema
+
+1. chiediamo il numero di chilometri che l'utente vuole percorrere
+2. chiediamo l'età del passeggero
+3. Calcoliamo il prezzo del biglietto
+4. aggiungiamo la variabile dello sconto per i minorenni
+5. la variabile dello sconto per gli over 65
+6. arrotondiamo il prezzo finale fino ai centesimi
